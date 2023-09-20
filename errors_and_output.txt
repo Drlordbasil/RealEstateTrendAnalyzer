@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "C:\Users\Antho\temp.py", line 72, in <module>
+    analyzer.visualize_data()
+  File "C:\Users\Antho\temp.py", line 43, in visualize_data
+    sns.barplot(data=self.data, x='Location', y='Price')
+  File "C:\Users\Antho\AppData\Local\Programs\Python\Python311\Lib\site-packages\seaborn\categorical.py", line 2755, in barplot
+    plotter = _BarPlotter(x, y, hue, data, order, hue_order,
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Antho\AppData\Local\Programs\Python\Python311\Lib\site-packages\seaborn\categorical.py", line 1532, in __init__
+    self.establish_colors(color, palette, saturation)
+  File "C:\Users\Antho\AppData\Local\Programs\Python\Python311\Lib\site-packages\seaborn\categorical.py", line 707, in establish_colors
+    lum = min(light_vals) * .6
+          ^^^^^^^^^^^^^^^
+ValueError: min() arg is an empty sequence
